@@ -1,0 +1,136 @@
+@media only screen and (min-width: 200px) and (max-width: 300px){
+    .search input{
+        padding: 4px;
+        margin: 0;
+        height: 40px;
+    }
+    .search button{
+        margin-left: 10px;
+        height: 40px;
+    }
+    .details{
+        width: 75%;
+        padding: 0 10px;
+    }
+    .col{
+        width: 8%;
+        text-align: center;
+    }
+    .col img{
+        width: 25px;
+        margin-right: -1px;
+    }
+    .humidity, .wind{
+        font-size: 15px;
+    }
+    .col p{
+        width: 20%;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 668px){
+    .details{
+        width: 75%;
+        padding: 0 10px;
+    }
+    .col{
+        width: 25%;
+        text-align: center;
+    }
+    .col img{
+        width: 70%;
+    }
+    .humidity, .wind{
+        font-size: 22px;
+    }
+    .col p{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 330px){
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 1);
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 3.5rem;
+    }
+    #navbar ul li a{
+        color: #fff;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+}
+@media only screen and (min-width: 330px) and (max-width: 900px){
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 1);
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 3.5rem;
+    }
+    #navbar ul li a{
+        color: #fff;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+}
